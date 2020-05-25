@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 12 Maj 2020, 10:14
+-- Czas generowania: 25 Maj 2020, 19:50
 -- Wersja serwera: 10.1.38-MariaDB
 -- Wersja PHP: 7.3.2
 
@@ -113,7 +113,27 @@ INSERT INTO `uczen` (`IdUcznia`, `Imie`, `Nazisko`, `Data_urodzenia`, `Miejsce_u
 (2, 'Anna', 'Nowak', '2002-02-13', 'Londyn', 'k', '2TI'),
 (3, 'Pawel', 'Nowak', '2003-04-23', 'Tokio', 'm', '1TI'),
 (4, 'Json', 'Nowicki', '2003-10-03', 'Nowy Jork', 'm', '1LO'),
-(5, 'Barbara', 'Opara', '2003-04-23', 'Szanghaj', 'k', '8SP');
+(5, 'Barbara', 'Opara', '2003-04-23', 'Szanghaj', 'k', '8SP'),
+(6, 'Henryk', 'Pietrzak', NULL, 'Grudziadz', 'm', '1LO'),
+(7, 'Dorian', 'Kubiak', NULL, 'Grudziadz', 'm', '1LO'),
+(8, 'Albert', 'Marciniak', NULL, 'Grudziadz', 'm', '1LO'),
+(9, 'Leszek', 'Andrzejewski', NULL, 'Grudziadz', 'm', '1LO'),
+(10, 'Andrzej', 'Bak', NULL, 'Grudziadz', 'm', '1LO'),
+(11, 'B?azej', 'Bak', NULL, 'Grudziadz', 'm', '1LO'),
+(12, 'Kewin', 'Michalak', NULL, 'Grudziadz', 'm', '1LO'),
+(13, 'Amir', 'Czarnecki', NULL, 'Grudziadz', 'm', '1LO'),
+(14, 'Igor', 'Zawadzki', NULL, 'Grudziadz', 'm', '1LO'),
+(15, 'Adrian', 'Jaworski', NULL, 'Grudziadz', 'm', '1LO'),
+(16, 'Wanda', 'Bachleda', NULL, 'Grudziadz', 'k', '1LO'),
+(17, 'Florencja', 'Bakula', NULL, 'Grudziadz', 'k', '1LO'),
+(18, 'Elwira', 'Baj', NULL, 'Grudziadz', 'k', '1LO'),
+(19, 'Klaudia', 'Niewiadomska', NULL, 'Grudziadz', 'k', '1LO'),
+(20, 'Olga', 'Bak', NULL, 'Grudziadz', 'k', '1LO'),
+(21, 'Czeslawa', 'Baginski', NULL, 'Grudziadz', 'k', '1LO'),
+(22, 'Edyta', 'Nitka', NULL, 'Grudziadz', 'k', '1LO'),
+(23, 'Julia', 'Nastula', NULL, 'Grudziadz', 'k', '1LO'),
+(24, 'Felicja', 'Nalkowska', NULL, 'Grudziadz', 'k', '1LO'),
+(25, 'Jowita', 'Nicpon', NULL, 'Grudziadz', 'k', '1LO');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -159,7 +179,7 @@ ALTER TABLE `przedmiot`
 -- AUTO_INCREMENT dla tabeli `uczen`
 --
 ALTER TABLE `uczen`
-  MODIFY `IdUcznia` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `IdUcznia` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- Ograniczenia dla zrzutów tabel
